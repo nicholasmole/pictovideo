@@ -28,7 +28,7 @@ add_shortcode( 'pictovideo', 'pictovideo' );
     if( ($overlayimg !== '') && ($videourl !== '') ):
     ?>
         
-        <div style="height: 300px;background: url(<?php echo $overlayimg; ?>);background-size: 100% 100%;background-repeat: no-repeat;" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
+        <div style="height: 268px;background: url(<?php echo $overlayimg; ?>);background-size: 100% 100%;background-repeat: no-repeat;" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
         <?php if($button === 'on'): ?>
             <button class="ytp-large-play-button ytp-button" aria-label="Play">
                 <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
@@ -42,7 +42,7 @@ add_shortcode( 'pictovideo', 'pictovideo' );
             <!--<img style="cursor: pointer;" src="https://cai-xzito.s3.amazonaws.com/uploads/2017/12/Screen-Shot-2017-12-22-at-9.50.28-AM.png" />-->
         </div>
         <div style="display: none;">
-            <iframe id="ytplayer" class="bg-make" src="<?php echo $videourl; ?>" width="640" height="360" frameborder="0">
+            <iframe id="ytplayer" class="bg-make" src="<?php echo $videourl; ?>" width="640" height="268" frameborder="0">
             </iframe>
         </div>
      <?php
