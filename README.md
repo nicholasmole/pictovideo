@@ -16,17 +16,17 @@ videourl & overlayimg are required for this plugin to output anything
 
 1. The Video URL
 
-⋅⋅⋅**[pictovideo videourl={url}]**
+⋅⋅⋅**[pictovideo videourl={url}]**⋅⋅
 ⋅⋅⋅Add the Youtube video.
 
 2. Overlaying Image
 
-⋅⋅⋅**[pictovideo overlayimg={url}]** 
+⋅⋅⋅**[pictovideo overlayimg={url}]**⋅⋅
 ⋅⋅⋅Add the Image on top of video
 
 3. Button On Youtube
 
-⋅⋅⋅**[pictovideo button={on}/{off}]**
+⋅⋅⋅**[pictovideo button={on}/{off}]**⋅⋅
 ⋅⋅⋅The typical youtube button is here if set to 'on'
 
 ##Future Notes:
