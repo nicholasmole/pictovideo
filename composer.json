@@ -1,6 +1,6 @@
 {
   "name": "nicholasmole/pictovideo",
-  "version" : "1.0.0",
+  "version" : "1.2.0",
   "description": "Video hidden behind a clickable picture",
   "type": "wordpress-plugin",
   "authors": [
