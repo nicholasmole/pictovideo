@@ -1,0 +1,15 @@
+{
+  "name": "nicholasmole/pictovideo",
+  "version" : "1.0.0",
+  "description": "Video hidden behind a clickable picture",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Nicholas Mole",
+      "email": "nmole065@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  }
+}
